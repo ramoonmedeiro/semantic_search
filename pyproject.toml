@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "elastic-app"
+version = "0.1.0"
+description = ""
+authors = ["Ramon Medeiro <r.medeiro10@gmail.com>"]
+readme = "README.md"
+packages = [{include = "elastic_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+numpy = "^1.25.2"
+langchain = "^0.0.278"
+elasticsearch = "^8.9.0"
+transformers = "^4.32.1"
+datasets = "^2.14.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
